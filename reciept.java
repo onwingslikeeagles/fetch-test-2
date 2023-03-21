@@ -31,7 +31,7 @@ public class recieptHandler
 				points = points + addedPointsTotal;
 		}
 		
-		if(Integer.parseInt(parseTotal))
+		if(parseTotal % 1 == 0)
 		{
 			points = points + 50;
 		}
